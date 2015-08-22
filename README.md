@@ -15,4 +15,4 @@ Once the installation is complete you're ready to run Geosis (Geosis.py).
   
   - Note 1: don't change the name of any Python Wheel packages (.whl files) inside the 'Bibliotecas' folder. The setup.py script acts precisely on each file original name.
   
-  - Note 2: by using this method to install the necessary packages to run Geosis you will not be getting the latest versions of each package. If you wish to have the most updated version of a package you should install it yourself using any method you like.
+  - Note 2: by using this method to install the necessary packages to run Geosis you will not be getting the latest versions of each package. If you wish to have the most updated version of a package you should install it yourself using any method you like (the pip command-line method is explained at http://github.com/viictorjs/Geosis).
