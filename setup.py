@@ -19,7 +19,7 @@ class Instalador:
 
         else:
 
-            input('\n Pressione qualquer tecla para iniciar a instalaçao...\n')
+            input('\n Serao instalados os seguintes pacotes Python:\n\n Numpy 1.9.2, Future 0.15.0, Scipy 0.16.0, Six 1.9.0, Dateuitl 2.4.2, Pytz 2015.4, Pyparsing 2.0.3, Setuptools 17.1.1, Matplotlib 1.4.3, Lxml 3.4.4, Sqlalchemy 1.0.8 e Obspy 0.10.2.\n\n Pressione qualquer tecla para iniciar a instalaçao...\n')
         
             if not os.path.exists('%s/Bibliotecas'%os.getcwd()):
 
@@ -36,7 +36,7 @@ class Instalador:
 
             try:
 
-                print('\n Instalaçao iniciada. Isso levará alguns segundos.\n')
+                print(' Instalaçao iniciada. Aguarde, isso pode levar alguns minutos.\n')
                 print("\n Instalando biblioteca - Numpy...\n")
                 output1 = subprocess.check_output('"%s\Scripts\pip.exe" install "%s/Bibliotecas/numpy-1.9.2+unoptimized-cp34-none-win32.whl"'%(sys.exec_prefix,
                                                     os.getcwd()),shell=True)
@@ -97,7 +97,7 @@ class Instalador:
 
             try:
 
-                print('\n Instalaçao iniciada. Aguarde, isso levará alguns segundos\n')
+                print(' Instalaçao iniciada. Aguarde, isso pode levar alguns minutos.\n')
                 print(" Instalando biblioteca - Numpy...\n")
                 output1 = subprocess.check_output('"%s\Scripts\pip.exe" install "%s/Bibliotecas/numpy-1.9.2+mkl-cp34-none-win_amd64.whl"'%(sys.exec_prefix,
                                                     os.getcwd()),shell=True)
